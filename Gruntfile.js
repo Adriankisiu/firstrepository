@@ -5,12 +5,12 @@ module.exports = function(grunt) {
   	sass: {
       options: {
         sourceMap: true
-      },
+    	},
       dist: {
         files: {
           'css/main.css': 'sass/main.sass'
+        	}
         }
-      }
     },
 
     imagemin: {
