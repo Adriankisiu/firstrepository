@@ -3,15 +3,15 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
   	sass: {
-      options: {
-        sourceMap: true
-    	},
-      dist: {
-        files: {
-          'css/main.css': 'sass/main.sass'
-      	}
-      }
-    },
+        options: {
+          sourceMap: true
+      	},
+        dist: {
+          files: {
+            'css/main.css': 'sass/main.sass'
+          }
+        }
+      },
 
     imagemin: {
   		dynamic: {
